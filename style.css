@@ -7,8 +7,8 @@
 
 
 .popupBlock{
-    width: 275px;
-    height: 170px;
+    width: 300px;
+    height: 200px;
     background-color: #000000;
     position: fixed;
     bottom: 20px;
@@ -28,14 +28,15 @@
     flex-direction: column;
 }
 .popupBlock img{
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     
 }
 .popupBlock p{
     color: white;
     font-size: 1.1em;
     margin-bottom: 5px  ;
+    text-align: center;
     
 }
 #acceptCookies{
@@ -44,9 +45,13 @@
     clear: both;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ffffff;
     font-weight: bolder;
+    &:hover{
+        background-color: #d3d3d3;
+        box-shadow:  2px 2px 2px #837676;
+    }
 }
 .cancel{
     width: 25px;
@@ -60,4 +65,42 @@
     color: white;
     font-weight: bolder;
     font-size: 1.2em;
+    &:hover{
+        color: red;
+    }
+}
+body{
+    height: 100%;
+    border: 5px solid black;
+}
+header{
+    height: 30vh;
+    text-align: center;
+    border: 1px solid black;
+}
+header h1{
+    padding-top: 40px;
+    font-size: 3em;
+}
+nav{
+   display: flex;
+   height: 50px;
+  
+   width: 100%;
+   justify-content: space-between;
+   
+}
+section{
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+main{
+    height: auto;
+    border: 1px solid black;
+}
+section p{
+    font-size: 1.2em;
+    margin-top: 30px;
 }
