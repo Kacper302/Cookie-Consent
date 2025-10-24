@@ -39,11 +39,25 @@
     
 }
 #acceptCookies{
-    width: 100px;
+    width: 110px;
     height: 30px;
     clear: both;
     cursor: pointer;
     border: none;
     border-radius: 5px;
     background-color: #ffffff;
+    font-weight: bolder;
+}
+.cancel{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
